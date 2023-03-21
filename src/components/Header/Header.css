@@ -1,0 +1,13 @@
+.menu a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+}
+.menu{
+ 
+    background: #0f2fe3;
+    padding: 30px;
+}

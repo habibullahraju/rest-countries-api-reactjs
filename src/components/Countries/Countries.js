@@ -13,8 +13,8 @@ const Countries = () => {
   
     return (
         <div>
-            <h1>Hello Melo Yellow Gelo Countries:{countries.length}</h1>
-         <div className='countries-container'>
+            <h1 className='m-3'>Hello Melo Yellow Gelo Countries:{countries.length}</h1>
+         <div className='countries-container bg-warning'>
              {
                 countries.map(country => <Country country={country} key={country.cca3}></Country>)
              }
